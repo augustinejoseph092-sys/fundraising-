@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liberty Forward | Veterans Fund</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="crypto.css" />
+</head>
+<body>
+  <div class="announcement">Every dollar helps a veteran take the next step forward. <a href="#donate">Give today →</a></div>
+  <header class="nav wrap">
+    <a class="brand" href="#top" aria-label="Liberty Forward home"><span class="brand-mark">★</span><span>LIBERTY<br><b>FORWARD</b></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav>
+      <a href="#mission">Our mission</a><a href="#impact">Impact</a><a href="#stories">Stories</a><a href="#donate" class="nav-cta">Donate now</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-photo" role="img" aria-label="A military veteran smiling outdoors"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content wrap">
+        <div class="eyebrow"><span></span> Honor their service. Fuel their future.</div>
+        <h1>When they come home,<br><em>we show up.</em></h1>
+        <p>Liberty Forward helps U.S. veterans and military families build stable, meaningful lives after service.</p>
+        <div class="hero-actions"><a class="button button-red" href="#donate">Make a difference <span>→</span></a><a class="text-link" href="#mission">See how it works <span>↓</span></a></div>
+      </div>
+      <div class="hero-stat"><strong>18</strong><span>veterans supported<br>every hour</span></div>
+    </section>
+
+    <section class="intro wrap" id="mission">
+      <div class="section-label">OUR PROMISE</div>
+      <div class="intro-copy"><h2>Service doesn’t end when the uniform comes off.</h2><p>From housing and healing to a new career, we connect veterans with practical support at the moments it matters most. Your gift turns gratitude into action.</p><a href="#impact" class="arrow-link">Explore our mission <span>→</span></a></div>
+    </section>
+
+    <section class="programs">
+      <div class="wrap"><div class="program-heading"><div><div class="section-label light">WHERE YOUR GIFT GOES</div><h2>Support that meets<br>the real need.</h2></div><p>We invest in the essentials that help veterans regain footing, find belonging, and thrive.</p></div>
+      <div class="program-grid">
+        <article><div class="icon">⌂</div><h3>Safe homes</h3><p>Emergency housing, rent assistance, and home repairs for veterans and their families.</p><a href="#donate">Support housing <span>→</span></a></article>
+        <article><div class="icon">✦</div><h3>Whole-person care</h3><p>Peer connection, mental wellness resources, and recovery support without judgment.</p><a href="#donate">Support wellness <span>→</span></a></article>
+        <article><div class="icon">↗</div><h3>New beginnings</h3><p>Job training, career coaching, and tools for veterans building their next chapter.</p><a href="#donate">Support careers <span>→</span></a></article>
+      </div></div>
+    </section>
+
+    <section class="impact wrap" id="impact">
+      <div class="impact-image" role="img" aria-label="Veteran working with a colleague"></div>
+      <div class="impact-copy"><div class="section-label">OUR IMPACT</div><h2>Purpose is a powerful thing.</h2><p>For more than a decade, our community has stood behind those who stood for us.</p><div class="numbers"><div><strong>42k</strong><span>veterans and family members served</span></div><div><strong>87¢</strong><span>of every dollar supports programs</span></div><div><strong>50</strong><span>states reached by our network</span></div></div><a class="button button-dark" href="#donate">Help write the next chapter <span>→</span></a></div>
+    </section>
+
+    <section class="quote" id="stories"><div class="quote-inner wrap"><div class="quote-mark">“</div><blockquote>I went from wondering how I’d keep the lights on to starting a career I’m proud of. Liberty Forward didn’t just help me get by—they helped me believe I could move forward.</blockquote><div class="person"><div class="avatar"></div><div><strong>Marcus R.</strong><span>U.S. Army Veteran</span></div></div></div></section>
+
+    <section class="donate" id="donate"><div class="wrap donate-layout"><div><div class="section-label light">MAKE AN IMPACT TODAY</div><h2>Your support says,<br><em>“you’re not alone.”</em></h2><p>Crypto gifts help make direct support possible for veterans and military families. Select your currency to get the correct receiving address.</p><details class="exchange-guide"><summary>New to crypto? Buy and send safely <span>+</span></summary><ol><li>Create and verify an account with <a href="https://www.bybit.com/" target="_blank" rel="noopener">Bybit</a> or <a href="https://www.binance.com/" target="_blank" rel="noopener">Binance</a>.</li><li>Purchase the cryptocurrency you wish to donate.</li><li>Choose <b>Withdraw</b> / <b>Send</b>, paste the address shown here, and select the <b>exact matching network</b>.</li><li>Double-check the address and network before sending. Crypto transfers cannot be reversed.</li></ol></details></div><div class="donation-card crypto-card"><div class="form-title">Donate with crypto</div><p class="card-intro">Choose a currency and send to the wallet below.</p><div class="crypto-options"><button type="button" data-crypto="usdt" class="selected"><b>USDT</b><small>TRC20</small></button><button type="button" data-crypto="btc"><b>BTC</b><small>Bitcoin</small></button><button type="button" data-crypto="sol"><b>SOL</b><small>Solana</small></button><button type="button" data-crypto="eth"><b>ETH</b><small>ERC20</small></button></div><div class="wallet-box"><span class="wallet-label" id="network-label">USDT · TRON (TRC20)</span><code id="wallet-address">TDxhCpVsfZWGFTjxJyH7kpjPjojgeKm7W7</code><button class="copy-button" type="button" id="copy-address">Copy address</button></div><div class="network-warning">⚠ Send only <b id="asset-label">USDT on the TRON (TRC20) network</b> to this address. Sending another asset or network may result in permanent loss.</div><p class="secure">⌁ Please confirm the address independently before sending.</p></div></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><a class="brand" href="#top"><span class="brand-mark">★</span><span>LIBERTY<br><b>FORWARD</b></span></a><p>© 2025 Liberty Forward Foundation. A 501(c)(3) nonprofit organization.</p><div><a href="#">Privacy</a><a href="#">Contact</a><a href="#">Financials</a></div></div></footer>
+  <div class="toast" role="status" aria-live="polite">Thank you—your generosity makes a real difference.</div>
+  <script src="script.js"></script>
+</body>
+</html>
